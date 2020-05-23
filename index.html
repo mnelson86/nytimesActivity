@@ -14,7 +14,27 @@
 
     <body>
 
-        
+        <header>
+            <h1>New York Times Search</h1>
+        </header>
+
+        <div class="container">
+
+            <form>
+                <label for="search-term">Search Term:</label><br>
+                <input type="text" id="search-term" name="search-term"><br>
+                <label for="num-records">Number of records to retrieve:</label><br>
+                <input type="text" id="num-records" name="num-records"><br>
+                <label for="start-year">Start Year:</label><br>
+                <input type="text" id="start-year" name="start-year"><br>
+                <label for="end-year">End Year:</label><br>
+                <input type="text" id="end-year" name="end-year"><br>
+                <input type="submit" value="Search">
+            </form>
+
+            <div id="articles"></div>
+
+        </div>
 
     </body>
 
